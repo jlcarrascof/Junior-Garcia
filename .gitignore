@@ -28,5 +28,6 @@ jspm_packages/
 .env.test
 
 # Others
+.vscode/
 package.json
 package-lock.json
