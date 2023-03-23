@@ -4,12 +4,12 @@
 - [X] Setup folders tree
 - [X] Setup linters
 - [X] Setup GitHub actions to run tests on pull request
+- [ ] Header section
+- [ ] Headline section
+- [ ] HTML setup
 
 ### Pending:
 - [ ] Animations
-- [ ] HTML setup
-- [ ] Header section
-- [ ] Headline section
 - [ ] Test different browsers (error from the previous attempt)
 - [ ] RWD-CSS
 - [ ] Adjust relative units to match the Figma template

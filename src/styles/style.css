@@ -85,3 +85,53 @@ header {
   background: transparent;
   border: none;
 }
+
+.headline {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  padding: 7.125rem 1.5rem;
+  justify-content: flex-start;
+  gap: clamp(0.6rem, 12px, 1.5rem);
+  background: url("./../../assets/img/mb_header-shapes.svg") no-repeat;
+  background-position: center;
+}
+
+.headline__tittle {
+  max-width: 12ch;
+  font-weight: 700;
+  font-size: clamp(2rem, 2.5rem, 3rem);
+  color: var(--clr-neutral-n800);
+  line-height: 3.25rem;
+  margin-bottom: 0;
+}
+
+.headline__intro-text {
+  color: var(--clr-neutral-n600);
+  font-weight: 400;
+  font-size: clamp(0.8rem, 16px, 1.25rem);
+  line-height: 1.5rem;
+  max-width: 75ch;
+  min-width: 20ch;
+  margin: 0;
+}
+
+.lets-connect {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--clr-primary-b300);
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.media__icons {
+  padding-left: 0;
+  margin-top: -0.3rem;
+  width: 6rem;
+  height: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
