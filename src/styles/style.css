@@ -369,7 +369,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  height: 4.5rem;
+  align-items: center;
 }
 
 .category button {
@@ -411,4 +411,10 @@ header {
   line-height: 1.25rem;
   font-size: clamp(0.75rem, 0.9375rem, 1.2rem);
   color: var(--clr-neutral-n700);
+}
+
+.underline {
+  border-bottom: solid 1px var(--clr-neutral-n40);
+  margin: 1rem 0;
+  padding-bottom: 1rem;
 }
