@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>Hello Microverse README</b></h3>
+  <h3><b>README</b></h3>
 
 </div>
 
@@ -29,11 +29,10 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [hw-w1d2] <a name="about-project"></a>
+# 📖 [ptfl-w1d3] <a name="about-project"></a>
 
-> Hello World project for microverse program
 
-**[hw-w1d2]** is a simple webpage displaying a title
+**[ptfl-w1d3]** is a mobile first project to learn the importance of a professional and appealing portfolio in job searching and skills showcasing.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -48,24 +47,30 @@
 </details>
 
 <details>
+  <summary>UX/UI</summary>
+  <ul>
+    <li><a href="https://www.figma.com/file/2qKQMab8u98Mb8Q97yO34N/Microverse-Student-Project-1-(Copy)?node-id=39%3A122&t=o6HnzPLGoWJmJqM1-1">Figma  (_WIP_)</a></li>
+  </ul>
+</details>
 
 
 ### Key Features <a name="key-features"></a>
 
-- **[Basic HTML structure]** showcasing the simplest webpage format with CSS styles
+- **[Responsiveness:]** Using flexbox/grid to learn about responsive designs
+- **[Appealing skills showcasing]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://juniorgarciarodriguez.github.io/hw-w1d2/)
+- [Live Demo](https://juniorgarciarodriguez.github.io/ptfl-w1d3/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
-To get a local copy up and running cloning this repo `git clone https://github.com/JuniorGarciaRodriguez/hw-w1d2.git`.
+To get a local copy up and running cloning this repo `git clone https://github.com/JuniorGarciaRodriguez/ptfl-w1d3.git`.
 
 ### Prerequisites
 
@@ -78,7 +83,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/JuniorGarciaRodriguez/hw-w1d2.git
+  git clone https://github.com/JuniorGarciaRodriguez/portfolio.git
 ```
 
 ### Usage
@@ -88,7 +93,7 @@ To run the project, open it in your browser of choice:
 
 ### Deployment
 
-You can deploy this project using [github pages](https://docs.github.com/en/pages/quickstart)
+You can deploy this project using [github pages](https://docs.github.com/en/pages/quickstart), or a web-hosting platform of your choice.
 
 
 
@@ -99,7 +104,7 @@ You can deploy this project using [github pages](https://docs.github.com/en/page
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Junior Garcia**
 
 - GitHub: [@J.Garcia](https://github.com/JuniorGarciaRodriguez)
 - Twitter: [@J.Garcia](https://twitter.com/JGarciaGez)
@@ -109,14 +114,16 @@ You can deploy this project using [github pages](https://docs.github.com/en/page
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-There is no future plans with this repo unless required in the microverse program
+- [X] **[Mobile first design]**
+- [ ] **[Responsive design for multiple devices]** _WIP_
+- [ ] **[CV and Experience showcasing]** _WIP_
+- **_[view more](./TODO.md)_**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Although i'm not initially planning on building something out of this project, contributions, issues, and feature requests are welcome! 
-Your ideas may trigger unplanned changes and further work on it.
+Contributions, issues, and feature requests are welcome! Your ideas may trigger the next features of the project once my knowledge base can reach the level of your imagination
 
 Feel free to check the [issues page](../../issues/).
 
@@ -124,14 +131,21 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project feel free to fork it and use it as a basic template for your own projects
+If you like this project feel free to use it as you please within the scope of _[the license](./LICENSE)_ Credit will be appreciated but not mandatory.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for the opportunity and trust in giving me the chance to join this new path
+I would like to thanks:
+- **_[Vyacheslav Plekhanov](https://www.linkedin.com/in/vyacheslav-plekhanov/)_** for mentoring, support and motivation
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **[No questions have been asked]**. Be the first curious mind
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
