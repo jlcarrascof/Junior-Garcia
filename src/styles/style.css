@@ -44,9 +44,7 @@ body {
 }
 
 header {
-  min-width: 12rem;
   background-color: var(--clr-neutral-n0);
-  border-radius: 0 0 0 4.5rem;
 }
 
 .header {
@@ -57,9 +55,6 @@ header {
 .header__wrapper {
   display: block;
   width: 100%;
-}
-
-.header__navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -93,6 +88,9 @@ header {
   justify-content: flex-start;
   gap: clamp(0.6rem, 12px, 1.5rem);
   background: url("./../../assets/img/mb_header-shapes.svg") no-repeat;
+  background-color: var(--clr-neutral-n0);
+  min-width: 12rem;
+  border-radius: 0 0 0 4.5rem;
   background-position: center;
 }
 
