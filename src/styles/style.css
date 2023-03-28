@@ -418,3 +418,104 @@ header {
   margin: 1rem 0;
   padding-bottom: 1rem;
 }
+
+/* CONTACT FORM */
+.contact-me {
+  margin-top: -3rem;
+  background-color: var(--clr-primary-b400);
+  border-radius: 65px 0 0 0;
+  background-image: url("./../../assets/img/mb_contact\ form\ shapes-mobile.svg");
+  background-position: 105% 102%;
+  background-blend-mode: normal;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 7.125rem 1.5rem 0;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(0.6rem, 12px, 1.5rem);
+}
+
+.contact-me h1 {
+  color: var(--clr-neutral-n0);
+  font-weight: 700;
+  font-size: clamp(2rem, 2.5rem, 3.5rem);
+  line-height: 3.25rem;
+  text-align: center;
+}
+
+.contact-me p {
+  font-weight: 400;
+  font-size: clamp(0.5rem, 1.25rem, 3rem);
+  line-height: 1.75rem;
+  text-align: center;
+  color: var(--clr-primary-b50);
+  max-width: 75ch;
+}
+
+.contact-me__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+#email,
+#name {
+  height: 100%;
+  height: 3rem;
+  border: transparent;
+}
+
+#email::placeholder,
+#name::placeholder {
+  color: var(--clr-neutral-n800);
+  font-weight: 400;
+  font-size: 1.0625rem;
+  line-height: 1.25rem;
+}
+
+#email,
+#msg,
+#name {
+  width: 100%;
+  padding: 0.5em;
+  background-color: var(--clr-neutral-n0);
+  border-radius: 8px;
+  line-height: 1.25rem;
+}
+
+#msg {
+  height: 10.63rem;
+  padding: 1rem;
+  font-weight: 400;
+  font-size: clamp(0.5rem, 0.9375rem, 1.5rem);
+  line-height: 1.5rem;
+}
+
+#msg::placeholder {
+  color: var(--clr-neutral-n60);
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+}
+
+.btn--submit {
+  background-color: var(--clr-neutral-n0);
+  color: var(--clr-primary-b400);
+  border-radius: 8px;
+  width: 8.88rem;
+  padding: 0.75rem 1rem;
+}
+
+footer {
+  height: auto;
+  width: 100%;
+  padding: 1rem 0.75rem;
+  background-color: var(--clr-primary-b400);
+  background-image: url(./../../assets/img/mb_home-indicator.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
