@@ -564,7 +564,7 @@ footer {
     border-radius: 0 0 0 4.5rem;
     padding: 3% 21%;
     background: url("./../../assets/img/dk_Header_bg.svg") no-repeat;
-    background-color: var(--clr-neutral-0);
+    background-color: var(--clr-neutral-n0);
     background-position: top 2em right 0.1em;
     background-size: 100% auto;
   }
