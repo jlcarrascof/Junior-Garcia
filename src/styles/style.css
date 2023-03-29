@@ -84,6 +84,10 @@ body {
   transition: 0.15s ease-in;
 }
 
+.desktop {
+  display: none;
+}
+
 header {
   background-color: var(--clr-neutral-n0);
 }
@@ -518,4 +522,204 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+/* DESKTOP */
+@media (min-width: 420px) {
+  body {
+    min-width: 375px;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .phone {
+    display: none;
+  }
+
+  .desktop__menu {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    gap: 1em;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+  }
+
+  .desktop__menu a {
+    color: var(--clr-neutral-n600);
+    cursor: pointer;
+  }
+
+  .header__navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 1.5625rem 8%;
+  }
+
+  .headline {
+    border-radius: 0 0 0 4.5rem;
+    padding: 3% 21%;
+    background: url("./../../assets/img/dk_Header_bg.svg") no-repeat;
+    background-color: var(--clr-neutral-0);
+    background-position: top 2em right 0.1em;
+    background-size: 100% auto;
+  }
+
+  .headline__tittle {
+    max-width: 20ch;
+  }
+
+  .headline__intro-text {
+    max-width: 75ch;
+  }
+
+  /* ABOUT */
+  .about-me-section {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 1.5625rem;
+    border-radius: 0 12.3125rem 0 0;
+  }
+
+  .about-me {
+    padding-right: 20%;
+  }
+
+  .underline {
+    border-bottom: solid 1px var(--clr-neutral-n40);
+  }
+
+  .category {
+    height: 3em;
+    padding-top: 1em;
+  }
+
+  .sub-category {
+    display: flex;
+    flex-direction: row;
+    max-width: 22rem;
+  }
+
+  .sub-category li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  #js,
+  #html,
+  #css {
+    align-items: baseline;
+  }
+
+  /* CONTACT FORM */
+  .contact-me {
+    margin-top: -11rem;
+    background-color: var(--clr-primary-b400);
+    border-radius: 12.0625rem 0 0 0;
+    background-image: url("./../../assets/img/dk_contact\ form\ background\ shapes.svg");
+    background-size: 102% auto;
+    background-position: -45% 1vh;
+    background-blend-mode: normal;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding: 6% 25vw;
+  }
+
+  .contact-me h1 {
+    margin-bottom: 0;
+  }
+
+  .contact-me p {
+    max-width: 45ch;
+  }
+
+  .contact-me__form {
+    max-width: 300px;
+  }
+
+  #email,
+  #msg,
+  #name {
+    border-radius: 2px;
+  }
+}
+
+@media screen and (min-width: 502px) {
+  /* ABOUT ME */
+  .about-me-section {
+    height: 90vh;
+  }
+
+  /* CONTACT ME */
+  .contact-me {
+    margin-top: -11rem;
+    border-radius: 12.063rem 0 0 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    width: 95%;
+  }
+
+  .headline {
+    padding: 20% 25vw;
+    width: 100%;
+    height: auto;
+    border-radius: 0 0 0 12.5rem;
+  }
+
+  /* PROJECTS */
+  .projects {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: calc(2.875rem + 5vw);
+    gap: calc(2.875rem + 5vh);
+  }
+
+  .project {
+    display: flex;
+    justify-content: stretch;
+    align-content: flex-start;
+    gap: clamp(0.6rem, 0.75rem + 10vw, 1.5rem);
+    padding-left: 1rem;
+    width: 100%;
+    height: auto;
+  }
+
+  .projects .project:nth-child(2),
+  .projects .project:nth-child(4) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .cover {
+    flex-grow: 1;
+  }
+
+  .project__title {
+    color: var(--clr-neutral-n1);
+  }
+
+  .caption-wrapper {
+    flex-grow: 0.8;
+  }
+
+  .about-me-section {
+    padding: 7.125rem 10.5rem;
+  }
+
+  .about-me {
+    padding: 0;
+  }
 }
