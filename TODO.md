@@ -1,6 +1,7 @@
 ## TODO
 
 ### Completed:
+- [X] Test different browsers (error from the previous attempt)
 - [X] Setup folders tree
 - [X] Setup linters
 - [X] Setup GitHub actions to run tests on pull request
@@ -10,10 +11,9 @@
 - [X] Adjust relative units to match the Figma template
 - [X] Projects section
 - [X] About Me section
+- [X] Contact Me form
 
 ### Pending:
 - [ ] Animations
-- [ ] Test different browsers (error from the previous attempt)
 - [ ] RWD-CSS
-- [ ] Contact Me form
 - [ ] Media queries for the desktop version

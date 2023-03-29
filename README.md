@@ -22,6 +22,7 @@
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [👥 Collaborators](#collaborators)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -109,6 +110,12 @@ You can deploy this project using [github pages](https://docs.github.com/en/page
 - GitHub: [@J.Garcia](https://github.com/JuniorGarciaRodriguez)
 - Twitter: [@J.Garcia](https://twitter.com/JGarciaGez)
 - LinkedIn: [@J.Garcia](https://www.linkedin.com/in/junior-g-078143191/)
+
+👥 Collaborators <a name="collaborators"></a>
+
+**Rapheal Okonta**
+
+- GitHub: [@R.Okonta](https://github.com/3nityGitHub)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
