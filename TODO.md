@@ -12,8 +12,8 @@
 - [X] Projects section
 - [X] About Me section
 - [X] Contact Me form
+- [X] RWD-CSS
+- [X] Media queries for the desktop version
 
 ### Pending:
 - [ ] Animations
-- [ ] RWD-CSS
-- [ ] Media queries for the desktop version
