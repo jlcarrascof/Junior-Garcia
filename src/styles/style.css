@@ -84,6 +84,10 @@ body {
   transition: 0.15s ease-in;
 }
 
+.desktop {
+  display: none;
+}
+
 header {
   background-color: var(--clr-neutral-n0);
 }
@@ -549,11 +553,6 @@ footer {
     cursor: pointer;
   }
 
-  /* HEADER */
-  header {
-    border-radius: 0 0 0 12.5rem;
-  }
-
   .header__navbar {
     display: flex;
     flex-wrap: nowrap;
@@ -562,8 +561,10 @@ footer {
   }
 
   .headline {
+    border-radius: 0 0 0 4.5rem;
     padding: 3% 21%;
     background: url("./../../assets/img/dk_Header_bg.svg") no-repeat;
+    background-color: var(--clr-neutral-0);
     background-position: top 2em right 0.1em;
     background-size: 100% auto;
   }
@@ -664,11 +665,15 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+  .header {
+    width: 95%;
+  }
+
   .headline {
-    margin: -1em 1em;
     padding: 20% 25vw;
     width: 100%;
     height: auto;
+    border-radius: 0 0 0 12.5rem;
   }
 
   /* PROJECTS */
