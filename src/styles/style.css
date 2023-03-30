@@ -69,6 +69,7 @@ body {
   color: var(--clr-neutral-n0);
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   transition: 0.25s ease-in-out;
+  transform: scale(1.3);
 }
 
 .btn:disabled {
