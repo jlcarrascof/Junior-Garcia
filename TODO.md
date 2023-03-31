@@ -1,5 +1,7 @@
+# TODO
 
-### Completed:
+## Completed
+
 - [X] Test different browsers (error from the previous attempt)
 - [X] Setup folders tree
 - [X] Setup linters
@@ -13,5 +15,9 @@
 - [X] Contact Me form
 - [X] RWD-CSS
 - [X] Media queries for the desktop version
+- [X] Animations
+
+## Pending
 
 - [ ] User Interactions with JavaScript
+- [ ] CSS compiler
