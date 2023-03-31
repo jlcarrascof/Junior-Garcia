@@ -103,8 +103,6 @@ You can deploy this project using [github pages](https://docs.github.com/en/page
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Junior Garcia**
 
 - GitHub: [@J.Garcia](https://github.com/JuniorGarciaRodriguez)
@@ -122,8 +120,8 @@ You can deploy this project using [github pages](https://docs.github.com/en/page
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [X] **[Mobile first design]**
-- [ ] **[Responsive design for multiple devices]** _WIP_
-- [ ] **[CV and Experience showcasing]** _WIP_
+- [X] **[Responsive design for multiple devices]** _WIP_
+- [X] **[CV and Experience showcasing]** _WIP_
 - **_[view more](./TODO.md)_**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -95,6 +95,8 @@ header {
 
 .header__wrapper {
   width: 100%;
+  margin: 0 auto;
+  max-width: 1156px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -524,24 +526,6 @@ footer {
 }
 
 /* DESKTOP */
-@media (min-width: 420px) {
-  body {
-    min-width: 375px;
-  }
-
-  .headline {
-    border-radius: 0 0 0 4.5rem;
-    padding: 3% 21%;
-  }
-}
-
-@media screen and (min-width: 502px) {
-  /* CONTACT ME */
-  .contact-me {
-    border-radius: 12.063rem 0 0 0;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .header {
     width: 95%;
@@ -574,7 +558,7 @@ footer {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    padding: 1.5625rem 8%;
+    padding: 1.5625rem 0;
   }
 
   .headline {
@@ -673,6 +657,9 @@ footer {
 
   /* CONTACT FORM */
   .contact-me {
+    display: grid;
+    gap: 12px;
+    align-content: center;
     background-color: var(--clr-primary-b400);
     border-radius: 12.0625rem 0 0 0;
     background-image: url("./../../assets/img/dk_contact\ form\ background\ shapes.svg");
@@ -694,7 +681,10 @@ footer {
   }
 
   .contact-me__form {
-    max-width: 300px;
+    max-width: 447px;
+    display: grid;
+    gap: 27px;
+    margin-left: 4rem
   }
 
   #email,
@@ -704,6 +694,6 @@ footer {
   }
 
   .btn--submit {
-    align-self: center;
+    margin: auto 9.53125rem;
   }
 }
