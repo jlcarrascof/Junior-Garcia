@@ -17,190 +17,188 @@
     <link rel="stylesheet" type="text/css" href="src/styles/style.css">
   </head>
 <body>
-    <!-- HEADER -->
-    <header>
-      <section class="header">
-        <div class="header__wrapper">
-          <a class="logo" href="#">My Logo</a>
-          <nav class="header__navbar">
-            <div class="toggleBtn phone">
-              <button class="btn--ham" type="button"><img src="./assets/img/mb_toggle menu.svg" alt="hamburger menu" class="ham--svg"></button>
-            </div>
-            <div class="desktop">
-              <ul class="desktop__menu">
-                <li class="menu__item"><a href="#portfolio" rel="noopener noreferrer">Portfolio</a></li>
-                <li class="menu__item"><a href="#about" rel="noopener noreferrer">About</a></li>
-                <li class="menu__item"><a href="#contact" rel="noopener noreferrer">Contact</a></li>
-              </ul>
-            </div>
-          </nav>
+  <!-- HEADER -->
+  <header>
+      <div class="header__wrapper">
+        <a class="logo" href="#">My Logo</a>
+        <nav class="header__navbar">
+          <div class="toggleBtn phone">
+            <button class="btn--ham" type="button"><img src="./assets/img/mb_toggle menu.svg" alt="hamburger menu" class="ham--svg"></button>
+          </div>
+          <div class="desktop">
+            <ul class="desktop__menu">
+              <li class="menu__item"><a href="#portfolio" rel="noopener noreferrer">Portfolio</a></li>
+              <li class="menu__item"><a href="#about" rel="noopener noreferrer">About</a></li>
+              <li class="menu__item"><a href="#contact" rel="noopener noreferrer">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+  </header>
+
+  <!-- HEADLINE -->
+  <section class="headline">
+    <h1 class="headline__tittle phone">I'm Junior Glad to see you!</h1>
+    <h1 class="headline__tittle desktop">I'm Junior<br> Glad to see you!</h1>
+    <p class="headline__intro-text">
+      I'm a software developer! I can help you build a product,
+      feature or website Look through some of my work and experience! If you like what you see and have a
+      project you need coded, don't hesitate to contact me.
+    </p>
+    <a href="#" rel="noreferrer noopener" class="lets-connect">LET'S CONNECT</a>
+    <ul class="media__icons">
+      <li><a target="_blank" rel="noreferrer noopener" href="https://twitter.com" class="media__icon"><img src="./assets/img/mb_Twitter icon.svg" alt="twitter"></a></li>
+      <li><a target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com" class="media__icon"><img src="./assets/img/mb_Linkedin icon.svg" alt="linkedin"></a></li>
+      <li><a target="_blank" rel="noreferrer noopener" href="https://medium.com" class="media__icon"><img src="./assets/img/mb_medium icon.svg" alt="medium"></a></li>
+      <li><a target="_blank" rel="noreferrer noopener" href="https://github.com" class="media__icon"><img src="./assets/img/mb_Github icon.svg" alt="github"></a></li>
+      <li><a target="_blank" rel="noreferrer noopener" href="https://angel.co" class="media__icon"><img src="./assets/img/mb_angel_list icon.svg" alt="angelList"></a></li>
+    </ul>
+  </section>
+
+  <!-- PROJECTS -->
+  <main id="portfolio" class="projects">
+    <section class="project">
+      <figure class="cover">
+        <img src="./assets/img/mb_Portfolio Snapshoot 1.svg" alt="Project preview" class="project-image phone">
+        <img src="./assets/img/dk_Snapshoot Portfolio 1.svg" alt="Project preview" class="project-image desktop">
+      </figure>
+      <div class="caption-wrapper">
+        <h2 class="project__title">Tonic</h2>
+        <div  class="canopy">
+          <h4>Canopy</h4>
+          <ul>
+            <li>Back End Dev</li>
+            <li>2015</li>
+          </ul>
         </div>
-      </section>
-    </header>
-
-      <!-- HEADLINE -->
-      <section class="headline">
-        <h1 class="headline__tittle phone">I'm Junior Glad to see you!</h1>
-        <p class="headline__intro-text">
-          I'm a software developer! I can help you build a product,
-          feature or website Look through some of my work and experience! If you like what you see and have a
-          project you need coded, don't hesitate to contact me.
-        </p>
-
-        <a href="#" rel="noreferrer noopener" class="lets-connect">LET'S CONNECT</a>
-
-        <ul class="media__icons">
-          <li><a target="_blank" rel="noreferrer noopener" href="https://twitter.com" class="media__icon"><img src="./assets/img/mb_Twitter icon.svg" alt="twitter"></a></li>
-          <li><a target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com" class="media__icon"><img src="./assets/img/mb_Linkedin icon.svg" alt="linkedin"></a></li>
-          <li><a target="_blank" rel="noreferrer noopener" href="https://medium.com" class="media__icon"><img src="./assets/img/mb_medium icon.svg" alt="medium"></a></li>
-          <li><a target="_blank" rel="noreferrer noopener" href="https://github.com" class="media__icon"><img src="./assets/img/mb_Github icon.svg" alt="github"></a></li>
-          <li><a target="_blank" rel="noreferrer noopener" href="https://angel.co" class="media__icon"><img src="./assets/img/mb_angel_list icon.svg" alt="angelList"></a></li>
-        </ul>
-      </section>
-
-      <!-- PROJECTS -->
-    <main id="portfolio" class="projects">
-      <section class="project">
-        <figure class="cover">
-          <img src="./assets/img/mb_Portfolio Snapshoot 1.svg" alt="Project preview" class="project-image phone">
-          <img src="./assets/img/dk_Snapshoot Portfolio 1.svg" alt="Project preview" class="project-image desktop">
-        </figure>
-        <div class="caption-wrapper">
-          <h2 class="project__title">Tonic</h2>
-          <div  class="canopy">
-            <h4>Canopy</h4>
-            <ul>
-              <li>Back End Dev</li>
-              <li>2015</li>
-            </ul>
-          </div>
-          <div class="project__summary">
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p></div>
-            <ul class="tech__wrapper">
-              <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTML">html</a></li>
-              <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Learn/CSS">css</a></li>
-              <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">javaScript</a></li>
-            </ul>
-            <button type="button" class="project__see-more btn">See Project</button>
-          </div>
-      </section>
-      <section class="project">
-        <figure class="cover">
-          <img src="./assets/img/mb_Portfolio Snapshoot 2.svg" alt="Project preview" class="project-image phone">
-          <img src="./assets/img/dk_Snapshoot Portfolio 2.svg" alt="Project preview" class="project-image desktop row-reverse">
-        </figure>
-        <div class="caption-wrapper">
-          <h2 class="project__title">Multi-Post Stories</h2>
-          <div class="canopy">
-            <h4>Canopy</h4>
-            <ul>
-              <li>Back End Dev</li>
-              <li>2015</li>
-            </ul>
-          </div>
-          <div class="project__summary">
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p></div>
-            <ul class="tech__wrapper">
-              <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTML">html</a></li>
-              <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Learn/CSS">css</a></li>
-              <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">javaScript</a></li>
-            </ul>
-            <button type="button" class="project__see-more btn">See Project</button>
-          </div>
-      </section>
-      <section class="project">
-        <figure class="cover">
-          <img src="./assets/img/mb_Portfolio Snapshoot 3.svg" alt="Project preview" class="project-image phone">
-          <img src="./assets/img/dk_Snapshoot Portfolio 3.svg" alt="Project preview" class="project-image desktop">
-        </figure>
-        <div class="caption-wrapper">
-          <h2 class="project__title">Tonic</h2>
-          <div class="canopy">
-            <h4>Canopy</h4>
-            <ul>
-              <li>Back End Dev</li>
-              <li>2015</li>
-            </ul>
-          </div>
-          <div class="project__summary">
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p></div>
-            <ul class="tech__wrapper">
-              <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTML">html</a></li>
-              <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Learn/CSS">css</a></li>
-              <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">javaScript</a></li>
-            </ul>
-            <button type="button" class="project__see-more btn">See Project</button>
-          </div>
-      </section>
-      <section class="project">
-        <figure class="cover">
-          <img src="./assets/img/mb_Portfolio Snapshoot 4.svg" alt="Project preview" class="project-image phone">
-          <img src="./assets/img/dk_Snapshoot Portfolio 4.svg" alt="Project preview" class="project-image desktop row-reverse">
-        </figure>
-        <div class="caption-wrapper">
-          <h2 class="project__title">Multi-Post Stories</h2>
-          <div class="canopy">
-            <h4>Canopy</h4>
-            <ul>
-              <li>Back End Dev</li>
-              <li>2015</li>
-            </ul>
-          </div>
-          <div class="project__summary">
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p></div>
-            <ul class="tech__wrapper">
-              <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTML">html</a></li>
-              <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Learn/CSS">css</a></li>
-              <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">javaScript</a></li>
-            </ul>
-            <button type="button" class="project__see-more btn">See Project</button>
-          </div>
-      </section>
-    </main>
-
-    <!-- ABOUT ME -->
-    <section id="about" class="about-me-section">
-      <div class="knowledge">
-        <h2>About Myself</h2>
-        <p>Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience!
-          If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
-        <a href="#" rel="noreferrer noopener" class="lets-connect">LET'S CONNECT</a>
-          <ul class="media__icons">
-            <li><a target="_blank" rel="noreferrer noopener" href="https://github.com" class="media__icon"><img src="./assets/img/mb_Github icon.svg" alt="github"></a></li>
-            <li><a target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com" class="media__icon"><img src="./assets/img/mb_Linkedin icon.svg" alt="linkedin"></a></li>
-            <li><a target="_blank" rel="noreferrer noopener" href="https://angel.co" class="media__icon"><img src="./assets/img/mb_angel_list icon.svg" alt="angelList"></a></li>
-            <li><a target="_blank" rel="noreferrer noopener" href="https://twitter.com" class="media__icon"><img src="./assets/img/mb_Twitter icon.svg" alt="twitter"></a></li>
-            <li><a target="_blank" rel="noreferrer noopener" href="https://medium.com" class="media__icon"><img src="./assets/img/mb_medium icon.svg" alt="medium"></a></li>
+        <div class="project__summary">
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p></div>
+          <ul class="tech__wrapper">
+            <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTML">html</a></li>
+            <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Learn/CSS">css</a></li>
+            <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">javaScript</a></li>
           </ul>
-        <button type="button" class="btn">Get my resume</button>
-      </div>
-      <div class="about-me">
-        <ul>
-          <li class="category">
-            <span>Languages</span>
-            <button type="button"><img src="./assets/img/mb_Icon-list-opened.svg" alt="list chevron"></button>
-          </li>
-          <ul class="sub-category">
-            <li id="js"><img src="./assets/img/mb_js-icon.svg" alt="javaScript icon">JavaScript</li>
-            <li id="html"><img src="./assets/img/mb_html-icon.svg" alt=""><span>HTML</span></li>
-            <li id="css"><img src="./assets/img/mb_css-icon.svg" alt=""><span>CSS</span></li>
-          </ul>
-        </ul>
-        <ul>
-          <li class="category underline">
-            Frameworks
-            <button type="button"><img src="./assets/img/mb_Icon-list-closed.svg" alt="list chevron"></button>
-          </li>
-          <li class="category underline">
-            Skills
-            <button type="button"><img src="./assets/img/mb_Icon-list-closed.svg" alt="list chevron"></button>
-          </li>
-        </ul>
-      </div>
+          <button type="button" class="project__see-more btn">See Project</button>
+        </div>
     </section>
+    <section class="project">
+      <figure class="cover">
+        <img src="./assets/img/mb_Portfolio Snapshoot 2.svg" alt="Project preview" class="project-image phone">
+        <img src="./assets/img/dk_Snapshoot Portfolio 2.svg" alt="Project preview" class="project-image desktop row-reverse">
+      </figure>
+      <div class="caption-wrapper">
+        <h2 class="project__title">Multi-Post Stories</h2>
+        <div class="canopy">
+          <h4>Canopy</h4>
+          <ul>
+            <li>Back End Dev</li>
+            <li>2015</li>
+          </ul>
+        </div>
+        <div class="project__summary">
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p></div>
+          <ul class="tech__wrapper">
+            <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTML">html</a></li>
+            <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Learn/CSS">css</a></li>
+            <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">javaScript</a></li>
+          </ul>
+          <button type="button" class="project__see-more btn">See Project</button>
+        </div>
+    </section>
+    <section class="project">
+      <figure class="cover">
+        <img src="./assets/img/mb_Portfolio Snapshoot 3.svg" alt="Project preview" class="project-image phone">
+        <img src="./assets/img/dk_Snapshoot Portfolio 3.svg" alt="Project preview" class="project-image desktop">
+      </figure>
+      <div class="caption-wrapper">
+        <h2 class="project__title">Tonic</h2>
+        <div class="canopy">
+          <h4>Canopy</h4>
+          <ul>
+            <li>Back End Dev</li>
+            <li>2015</li>
+          </ul>
+        </div>
+        <div class="project__summary">
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p></div>
+          <ul class="tech__wrapper">
+            <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTML">html</a></li>
+            <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Learn/CSS">css</a></li>
+            <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">javaScript</a></li>
+          </ul>
+          <button type="button" class="project__see-more btn">See Project</button>
+        </div>
+    </section>
+    <section class="project">
+      <figure class="cover">
+        <img src="./assets/img/mb_Portfolio Snapshoot 4.svg" alt="Project preview" class="project-image phone">
+        <img src="./assets/img/dk_Snapshoot Portfolio 4.svg" alt="Project preview" class="project-image desktop row-reverse">
+      </figure>
+      <div class="caption-wrapper">
+        <h2 class="project__title">Multi-Post Stories</h2>
+        <div class="canopy">
+          <h4>Canopy</h4>
+          <ul>
+            <li>Back End Dev</li>
+            <li>2015</li>
+          </ul>
+        </div>
+        <div class="project__summary">
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p></div>
+          <ul class="tech__wrapper">
+            <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTML">html</a></li>
+            <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Learn/CSS">css</a></li>
+            <li><a target="_blank" rel="noreferrer noopener" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">javaScript</a></li>
+          </ul>
+          <button type="button" class="project__see-more btn">See Project</button>
+        </div>
+    </section>
+  </main>
 
-    <!-- CONTACT ME -->
-    <section id="contact" class="contact-me">
+  <!-- ABOUT ME -->
+  <section id="about" class="about-me-section">
+    <div class="knowledge">
+      <h2>About Myself</h2>
+      <p>Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience!
+        If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
+      <a href="#" rel="noreferrer noopener" class="lets-connect">LET'S CONNECT</a>
+        <ul class="media__icons">
+          <li><a target="_blank" rel="noreferrer noopener" href="https://github.com" class="media__icon"><img src="./assets/img/mb_Github icon.svg" alt="github"></a></li>
+          <li><a target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com" class="media__icon"><img src="./assets/img/mb_Linkedin icon.svg" alt="linkedin"></a></li>
+          <li><a target="_blank" rel="noreferrer noopener" href="https://angel.co" class="media__icon"><img src="./assets/img/mb_angel_list icon.svg" alt="angelList"></a></li>
+          <li><a target="_blank" rel="noreferrer noopener" href="https://twitter.com" class="media__icon"><img src="./assets/img/mb_Twitter icon.svg" alt="twitter"></a></li>
+          <li><a target="_blank" rel="noreferrer noopener" href="https://medium.com" class="media__icon"><img src="./assets/img/mb_medium icon.svg" alt="medium"></a></li>
+        </ul>
+      <button type="button" class="btn">Get my resume</button>
+    </div>
+    <div class="about-me">
+      <ul>
+        <li class="category">
+          <span>Languages</span>
+          <button type="button"><img src="./assets/img/mb_Icon-list-opened.svg" alt="list chevron"></button>
+        </li>
+        <ul class="sub-category">
+          <li id="js"><img src="./assets/img/mb_js-icon.svg" alt="javaScript icon">JavaScript</li>
+          <li id="html"><img src="./assets/img/mb_html-icon.svg" alt=""><span>HTML</span></li>
+          <li id="css"><img src="./assets/img/mb_css-icon.svg" alt=""><span>CSS</span></li>
+        </ul>
+      </ul>
+      <ul>
+        <li class="category underline">
+          Frameworks
+          <button type="button"><img src="./assets/img/mb_Icon-list-closed.svg" alt="list chevron"></button>
+        </li>
+        <li class="category underline">
+          Skills
+          <button type="button"><img src="./assets/img/mb_Icon-list-closed.svg" alt="list chevron"></button>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT ME -->
+  <section id="contact">
+    <div class="contact-me">
       <h1>Contact me</h1>
       <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it</p>
       <form id="contact_form" class="contact-me__form" action="https://formspree.io/f/xnqyvppn" method="POST">
@@ -209,6 +207,7 @@
         <label for="msg"><textarea id="msg" name="message" placeholder="Write your message here" maxlength="500" required></textarea></label>
         <button class="btn btn--submit" type="submit">Get in Touch</button>
       </form>
+    </div>
   </section>
 
   <!-- FOOTER -->

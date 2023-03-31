@@ -35,9 +35,9 @@ html {
 }
 
 body {
+  margin: 0;
   font-family: var(--ff);
   font-style: normal;
-  margin: 0;
   overflow-x: hidden;
   background-color: var(--clr-primary);
   min-width: 12rem;
@@ -69,7 +69,7 @@ body {
   color: var(--clr-neutral-n0);
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   transition: 0.25s ease-in-out;
-  transform: scale(1.3);
+  transform: scale(1.15);
 }
 
 .btn:disabled {
@@ -91,11 +91,6 @@ body {
 
 header {
   background-color: var(--clr-neutral-n0);
-}
-
-.header {
-  position: relative;
-  height: 15%;
 }
 
 .header__wrapper {
@@ -126,7 +121,6 @@ header {
 }
 
 .headline {
-  height: 85%;
   display: flex;
   flex-direction: column;
   padding: 7.125rem 1.5rem;
@@ -425,8 +419,11 @@ header {
 }
 
 /* CONTACT FORM */
+#contact {
+  background-color: var(--clr-neutral-n0);
+}
+
 .contact-me {
-  margin-top: -3rem;
   background-color: var(--clr-primary-b400);
   border-radius: 65px 0 0 0;
   background-image: url("./../../assets/img/mb_contact\ form\ shapes-mobile.svg");
@@ -581,7 +578,6 @@ footer {
   /* ABOUT */
   .about-me-section {
     display: grid;
-    height: 100vh;
     grid-template-columns: 1fr 1.5fr;
     gap: 1.5625rem;
     border-radius: 0 12.3125rem 0 0;
@@ -620,7 +616,6 @@ footer {
 
   /* CONTACT FORM */
   .contact-me {
-    margin-top: -11rem;
     background-color: var(--clr-primary-b400);
     border-radius: 12.0625rem 0 0 0;
     background-image: url("./../../assets/img/dk_contact\ form\ background\ shapes.svg");
@@ -653,14 +648,8 @@ footer {
 }
 
 @media screen and (min-width: 502px) {
-  /* ABOUT ME */
-  .about-me-section {
-    height: 90vh;
-  }
-
   /* CONTACT ME */
   .contact-me {
-    margin-top: -11rem;
     border-radius: 12.063rem 0 0 0;
   }
 }
