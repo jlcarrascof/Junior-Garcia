@@ -35,9 +35,9 @@ html {
 }
 
 body {
+  margin: 0;
   font-family: var(--ff);
   font-style: normal;
-  margin: 0;
   overflow-x: hidden;
   background-color: var(--clr-primary);
   min-width: 12rem;
