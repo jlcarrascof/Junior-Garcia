@@ -1,4 +1,3 @@
-## TODO
 
 ### Completed:
 - [X] Test different browsers (error from the previous attempt)
@@ -15,5 +14,4 @@
 - [X] RWD-CSS
 - [X] Media queries for the desktop version
 
-### Pending:
-- [ ] Animations
+- [ ] User Interactions with JavaScript
