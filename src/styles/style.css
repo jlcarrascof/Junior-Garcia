@@ -645,6 +645,10 @@ footer {
   #name {
     border-radius: 2px;
   }
+
+  .btn--submit {
+    align-self: center;
+  }
 }
 
 @media screen and (min-width: 502px) {
