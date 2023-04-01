@@ -111,9 +111,6 @@ header {
   font-size: 1.125rem;
   line-height: 1.25rem;
   font-weight: 700;
-}
-
-.logo {
   word-spacing: 0;
 }
 
@@ -558,6 +555,7 @@ footer {
   .desktop__menu a {
     color: var(--clr-neutral-n600);
     cursor: pointer;
+    font-weight: 500;
   }
 
   .header__navbar {
