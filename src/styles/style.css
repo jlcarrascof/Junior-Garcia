@@ -52,6 +52,7 @@ body {
   background-color: transparent;
   border: 1px solid var(--clr-primary-b300);
   border-radius: 8px;
+  cursor: pointer;
 
   /* Text inside */
   font-weight: 500;
