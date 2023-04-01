@@ -95,8 +95,8 @@ header {
 
 .header__wrapper {
   width: 100%;
+  height: auto;
   margin: 0 auto;
-  max-width: 1156px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -539,6 +539,11 @@ footer {
     display: none;
   }
 
+  .header__wrapper {
+    height: auto;
+    padding: 1rem calc(2.875rem + 5vw);
+  }
+
   .desktop__menu {
     display: flex;
     padding: 0;
@@ -558,7 +563,6 @@ footer {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    padding: 1.5625rem 0;
   }
 
   .headline {
