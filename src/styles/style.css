@@ -678,13 +678,17 @@ footer {
 
   .contact-me p {
     max-width: 45ch;
+    margin: 0;
   }
 
   .contact-me__form {
     max-width: 447px;
     display: grid;
-    gap: 27px;
-    margin-left: 4rem
+    gap: 1.5rem;
+    justify-items: stretch;
+    align-items: center;
+    justify-self: center;
+    margin: 0.75rem auto;
   }
 
   #email,
