@@ -16,6 +16,7 @@
 - [X] RWD-CSS
 - [X] Media queries for the desktop version
 - [X] Animations
+- [X] Accessibility
 
 ## Pending
 
