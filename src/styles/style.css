@@ -386,6 +386,10 @@ header {
 }
 
 .sub-category {
+  width: calc(100% - 0.8rem);
+}
+
+.sub-category ul {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -640,22 +644,16 @@ footer {
     padding-top: 1em;
   }
 
-  .sub-category {
+  .sub-category ul {
     display: flex;
     flex-direction: row;
-    max-width: 22rem;
+    max-width: 25rem;
   }
 
   .sub-category li {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-  }
-
-  #js,
-  #html,
-  #css {
-    align-items: baseline;
   }
 
   /* CONTACT FORM */
