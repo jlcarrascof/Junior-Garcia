@@ -1,17 +1,17 @@
 :root {
   --clr-primary: #e5e5e5;
   --clr-primary-b1: #2230d2;
-  --clr-primary-b300: #7f8cff;
-  --clr-primary-b400: #6070ff;
+  --clr-primary-b300: #1a30ff;
+  --clr-primary-b400: #1f31ff;
   --clr-primary-b50: #ebebff;
   --clr-neutral-n0: #fff;
   --clr-neutral-n1: #091e42;
   --clr-neutral-n7: #c1c7d0;
   --clr-neutral-n5: #5e6c84;
   --clr-neutral-n10: #f7f7f9;
-  --clr-neutral-n40: #dfe1e6;
+  --clr-neutral-n40: #535679;
   --clr-neutral-n60: #b3bac5;
-  --clr-neutral-n100: #7a869a;
+  --clr-neutral-n100: #525766;
   --clr-neutral-n600: #344563;
   --clr-neutral-n700: #253858;
   --clr-neutral-n800: #172b4d;
@@ -386,6 +386,10 @@ header {
 }
 
 .sub-category {
+  width: calc(100% - 0.8rem);
+}
+
+.sub-category ul {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -640,22 +644,16 @@ footer {
     padding-top: 1em;
   }
 
-  .sub-category {
+  .sub-category ul {
     display: flex;
     flex-direction: row;
-    max-width: 22rem;
+    max-width: 25rem;
   }
 
   .sub-category li {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-  }
-
-  #js,
-  #html,
-  #css {
-    align-items: baseline;
   }
 
   /* CONTACT FORM */
